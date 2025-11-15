@@ -1,6 +1,5 @@
 import { runAsync, getAllAsync } from "./db";
 
-// Add Expense
 export const addExpense = async (
   category: string,
   amount: number,
@@ -22,7 +21,6 @@ export const addExpense = async (
   }
 };
 
-// Get Expenses
 export const getExpenses = async () => {
   try {
     return await getAllAsync(

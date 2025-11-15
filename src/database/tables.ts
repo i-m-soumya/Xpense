@@ -29,8 +29,8 @@ export const createTables = async () => {
       );
     `);
 
-    console.log("✅ All Tables Created");
+    console.log("✅ Tables ready");
   } catch (error) {
-    console.log("❌ Table Creation Error:", error);
+    console.log("❌ Table Error:", error);
   }
 };

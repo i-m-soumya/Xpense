@@ -1,6 +1,5 @@
 import { runAsync, getAllAsync } from "./db";
 
-// Add Budget
 export const addBudget = async (
   name: string,
   amount: number,
@@ -18,12 +17,9 @@ export const addBudget = async (
   }
 };
 
-// Get Budgets
 export const getBudgets = async () => {
   try {
-    return await getAllAsync(
-      "SELECT * FROM budgets ORDER BY id DESC"
-    );
+    return await getAllAsync("SELECT * FROM budgets ORDER BY id DESC");
   } catch (e) {
     console.log("Get Budgets Error:", e);
     return [];
