@@ -3,7 +3,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 
-import DashboardScreen from "../screens/DashboardScreen";
+import DashboardScreen from "../screens/TransactionsScreen";
 import BudgetScreen from "../screens/BudgetScreen";
 import ExpenseScreen from "../screens/ExpenseScreen";
 import IncomeScreen from "../screens/IncomeScreen";
